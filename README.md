@@ -1,58 +1,3 @@
-Was nett wäre, Vergesst bitte nicht meinen Kanal zu abonnieren und zu liken ;-) ... wann disliken gut wär, dann das auch :-))
-
-https://www.youtube.com/c/BavarianSuperGuy
-
-Soyo Film-> https://youtu.be/TAW5yowh12U
-
-Video zu 
-v1.0.2.5 
-Mehrere Soyo 
-mit einem ESP -> https://youtu.be/sVKFAbERqqg
-
-
-
-
-Ich übernehme keine Haftung für Schäden, die aufgrund der Nutzung 
-der Software entstehen oder entstanden sind. 
-Jeder ist für sein tun selber verantwortlich.
-Mir sind keine Probleme bekannt.
-
-Vorab zum ESP8266 ein Hinweis!
-zu 100% Lauffähig ist die hier eingestellte Software mit einem ESP12 Modul!
-Dieses ESP12 Modul gibt es als e,f oder s Variante.
-Diese haben immer ein Abschirmblech verbaut und haben 4MByte(32Mbit) Ram!
-In der Regel haben D1 minis oder NodeMcu Platinen das ESP12 Modul verbaut!
-Diese funktionieren in der Regel auch gut aber die usbserial programmiereinrichtung 
-die mit auf der platine zum ESP12 Modul verbaut wird , ist teils oer meist störanfällig!
-Diese z.B. ch340 verbauten IC sind mit dem rx/tx des esp8266 im ESP12 Modul verbunden.
-Die Entkopplung von RX/TX ist den D1/Node Platinen Herstellern nicht immer gelungen!
-
-
-
-GANZ UNTEN IST DAS ANSCHLUSSSCHEMA (Bastelplan3000)
-
-3 Dinge sind wichtig für die Umsetzung dieses Projekts:
-- 3,3V
-- Guter Wlan Empfang(Keine Leerzeichen in der SSID vom Router)
-- Readme vollstandig lesen, dann nochmal
-wann readme gelesen wurde und ihr daraufhin gemerkt habt
-aufgrund der Methode die beschrieben wird ,
-der wlan empfang ist schlecht und lässt sich nicht ändern
-
-... https://www.google.com/search?q=esp8266+antennenhack
-
-ich kann keinen besseren Empfang programmiern!
-und der esp kann auch nix anderes machen 
-wann er ständig versucht sich  ins Wlan einzuloggen
-
-
-Internet Explorer wird nicht unterstützt!(die kochen wieder eigenes Sueppchen bei Slider funktion)
-
-<img src="Soyosource.png" alt="Soyosource Controller by BavarianSuperGuy"/>
-<img src="Soyosource_ohne_display.png" alt="Soyosource Controller by BavarianSuperGuy"/>
-
-
-
 # EspSoyosourceController mit Webseite
 Der Esp8266 ist über ein Rs485 Modul mit dem Soyosource 1200 Solar/Batterie Wechselrichter verbunden und kann diesem die Leistungswerte senden die er im Stromnetz ausgleichen/einspeisen soll. 
 ManualMode: Der Leistungswert kann auf der Esp Webseite eingegeben und gesendet werden. 
@@ -202,21 +147,11 @@ oder -200.66 erwartet (Dezimaltrenner ist punkt) und muss immer den reelen/aktue
 
 ########################################################################
 
-END HINWEIS(NICHT nur die harten, kommen in den Garten) :
-
-Wann du von L1 L2 oder L3 nichts wissen willst oder sowieso GENERAL die Schnauze voll hast 
-- Kauf dir nen shelly3em
-- Bau ihn oder lass ihn fachmännisch im HAK einbauen
+- shelly3em
 - In der Esp Web Gui wählst du shelly client
 - In der Esp Web Gui gibst du die IP Adresse vom shelly3em ein
 - In der Esp Web Gui drückst du noch auf übernehmen und restart
 
-und schon wirds wieder RUHIG im DachstÜbchen! :-)
-Zeit fürs Bier gewonnen!
-
 ###################################################################+####
-
-Falls Ihr mich unterstützen wollt, Spenden sind herzlich willkommen und würde mich sehr freuen :-)
-Hier bitte - https://paypal.me/armerprogrammer
 
 <img src="BastelPlan3000_Soyosource_Controller_by_BavarianSuperGuy.png" alt="Soyosource Controller by BavarianSuperGuy"/>
